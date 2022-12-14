@@ -31,18 +31,21 @@ hr{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    
 }
 
 .link-primary{
    background-color: var(--primary-color);
    border-radius: 0.5rem;
    color: white;
+   
 }
 
 .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5ren;
     border: 1px solid var(--primary-color);
+    
 
 }
 
@@ -105,10 +108,17 @@ hr{
     color: var(--primary-color);
 }
 
+.hero-heading-color{
+    color: var(--primary-color);
+}
+
 /*sections*/
 
 .section{
     padding: 2rem;
+    border-radius: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .section h1{
@@ -136,6 +146,10 @@ hr{
 .footer .footer-header{
     font-size: larger;
     font-weight: bold;
+}
+
+.center-heading{
+    text-align: center;
 }
 
 
